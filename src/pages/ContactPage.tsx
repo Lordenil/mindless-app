@@ -1,13 +1,13 @@
 export const ContactPage = () => {
   return (
     <main>
-      <section className="relative">
+      <section className="relative w-full h-[400px] lg:h-[550px]">
         <img
-          src="https://images.unsplash.com/photo-1609897981032-9b1eeb51f0b3"
-          alt="model"
-          className="w-full h-[90vh] object-cover"
+          src="/public/header.png"
+          alt="model"    
+          className="w-full h-full object-cover"
         />
-        <div className="absolute bottom-0 w-full bg-gray-100 bg-opacity-90 p-8">
+        <div className="absolute bottom-0 w-full bg-gray-100/90 p-8">
           <h2 className="text-2xl font-semibold mb-3">
             ENTRETEJIDOS FALL 2025
           </h2>
