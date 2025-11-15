@@ -1,6 +1,6 @@
 export const ContactPage = () => {
   return (
-    <main className="pt-20">
+    <main>
       <section className="relative">
         <img
           src="https://images.unsplash.com/photo-1609897981032-9b1eeb51f0b3"

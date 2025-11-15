@@ -7,15 +7,21 @@ import { ContactPage } from "../pages/ContactPage";
 const routerApp = createBrowserRouter([
   {
     path: "/",
-    element: Transitions.component(<HomePage />),
-  },
-  {
-    path: "/about",
-    element: Transitions.component(<AboutPage />),
-  },
-  {
-    path: "/contact",
-    element: Transitions.component(<ContactPage />),
+    element: <HomePage />,
+    children: [
+      {
+        index: true,
+        element: Transitions.component(<AboutPage />),
+      },
+      {
+        path: "/about",
+        element: Transitions.component(<AboutPage />),
+      },
+      {
+        path: "/contact",
+        element: Transitions.component(<ContactPage />),
+      },
+    ],
   },
 ]);
 
