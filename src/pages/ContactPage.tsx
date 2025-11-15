@@ -3,7 +3,7 @@ export const ContactPage = () => {
     <main>
       <section className="relative w-full h-[400px] lg:h-[550px]">
         <img
-          src="/public/header.png"
+          src="/src/assets/header.png"
           alt="model"    
           className="w-full h-full object-cover"
         />
