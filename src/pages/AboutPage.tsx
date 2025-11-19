@@ -1,4 +1,8 @@
-import { CarouselDefault } from "../components/Carousel";
+import {
+  CarouselDefault,
+  CarouselDefault2,
+  CarouselDefault3,
+} from "../components/Carousel";
 import SinMente from "../assets/sin-mente.jpg";
 
 export const AboutPage = () => {
@@ -29,7 +33,7 @@ export const AboutPage = () => {
         <div className="w-full h-96 bg-gray-300 flex items-center justify-center rounded-lg overflow-hidden">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/GsyTVrbgfYI"
+            src="https://www.youtube.com/embed/t_lGeyd173g"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -61,33 +65,24 @@ export const AboutPage = () => {
               transforman cada pieza en un territorio emocional donde la memoria
               no se guarda, se viste. Memorias en Presente es, en esencia, un
               viaje introspectivo traducido en forma, tejido y color. Un
-              homenaje a la sensibilidad que sana, a la belleza que permanece y
-              a la moda como ritual de autenticidad y trascendencia.
+              homenaje a la sensibilidad que sana, a la belleza que permanece en
+              la moda como ritual de autenticidad y trascendencia.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-200 p-4 overflow-hidden rounded-lg">
               <CarouselDefault />
               <h4 className="mt-4 text-lg font-semibold">Colección 1</h4>
-              <p className="text-gray-700 text-sm mt-2">
-                Descripción corta de esta colección y su inspiración.
-              </p>
             </div>
 
             <div className="bg-gray-200 p-4 rounded-lg">
-              <CarouselDefault />
+              <CarouselDefault2 />
               <h4 className="mt-4 text-lg font-semibold">Colección 2</h4>
-              <p className="text-gray-700 text-sm mt-2">
-                Otra colección con enfoque artesanal y moderno.
-              </p>
             </div>
 
             <div className="bg-gray-200 p-4 rounded-lg">
-              <CarouselDefault />
+              <CarouselDefault3 />
               <h4 className="mt-4 text-lg font-semibold">Colección 3</h4>
-              <p className="text-gray-700 text-sm mt-2">
-                Detalles sobre esta línea y su proceso creativo.
-              </p>
             </div>
           </div>
         </div>
