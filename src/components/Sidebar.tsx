@@ -19,7 +19,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
       }`}
     >
       <div className="flex justify-between items-center px-6 py-4 border-b">
-        <h2 className="text-xl font-bold tracking-widest">MINDLESS</h2>
+        <h2 className="text-xl font-bold tracking-widest">SIN MENTE</h2>
         <button onClick={onClose} aria-label="Cerrar menú lateral">
           ✕
         </button>

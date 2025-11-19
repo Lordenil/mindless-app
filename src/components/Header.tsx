@@ -10,7 +10,7 @@ export default function Header({ onToggleMenu }: HeaderProps) {
       <button onClick={onToggleMenu} aria-label="Abrir menú lateral">
         <Menu size={28} />
       </button>
-      <h1 className="text-2xl font-semibold tracking-widest">MINDLESS</h1>
+      <h1 className="text-2xl font-semibold tracking-widest">SIN MENTE</h1>
       <div className="flex gap-4">
         <button aria-label="Buscar">🔍</button>
         <button aria-label="Usuario">👤</button>
