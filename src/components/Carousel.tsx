@@ -38,54 +38,54 @@ import img15 from "../assets/collections/collection-2/image-15.jpg";
 
 export const CarouselDefault = () => {
   return (
-    <Carousel className="w-full h-56 object-cover rounded">
-      <img src={img21} alt="image 1" className="h-full w-full object-cover" />
-      <img src={img22} alt="image 2" className="h-full w-full object-cover" />
-      <img src={img23} alt="image 3" className="h-full w-full object-cover" />
-      <img src={img24} alt="image 4" className="h-full w-full object-cover" />
-      <img src={img25} alt="image 5" className="h-full w-full object-cover" />
-      <img src={img26} alt="image 6" className="h-full w-full object-cover" />
-      <img src={img27} alt="image 7" className="h-full w-full object-cover" />
-      <img src={img28} alt="image 8" className="h-full w-full object-cover" />
+    <Carousel className="w-full h-96 object-cover rounded">
+      <img src={img21} alt="" className="h-full w-full object-cover" />
+      <img src={img22} alt="" className="h-full w-full object-cover" />
+      <img src={img23} alt="" className="h-full w-full object-cover" />
+      <img src={img24} alt="" className="h-full w-full object-cover" />
+      <img src={img25} alt="" className="h-full w-full object-cover" />
+      <img src={img26} alt="" className="h-full w-full object-cover" />
+      <img src={img27} alt="" className="h-full w-full object-cover" />
+      <img src={img28} alt="" className="h-full w-full object-cover" />
     </Carousel>
   );
 };
 
 export const CarouselDefault2 = () => {
   return (
-    <Carousel className="w-full h-56 object-cover rounded">
-      <img src={img1} alt="image 1" className="h-full w-full object-cover" />
-      <img src={img2} alt="image 2" className="h-full w-full object-cover" />
-      <img src={img3} alt="image 3" className="h-full w-full object-cover" />
-      <img src={img4} alt="image 4" className="h-full w-full object-cover" />
-      <img src={img5} alt="image 5" className="h-full w-full object-cover" />
-      <img src={img6} alt="image 6" className="h-full w-full object-cover" />
-      <img src={img7} alt="image 7" className="h-full w-full object-cover" />
-      <img src={img8} alt="image 8" className="h-full w-full object-cover" />
-      <img src={img9} alt="image 9" className="h-full w-full object-cover" />
-      <img src={img10} alt="image 10" className="h-full w-full object-cover" />
-      <img src={img11} alt="image 11" className="h-full w-full object-cover" />
-      <img src={img12} alt="image 12" className="h-full w/full object-cover" />
-      <img src={img13} alt="image 13" className="h-full w/full object-cover" />
-      <img src={img14} alt="image 14" className="h-full w/full object-cover" />
-      <img src={img15} alt="image 15" className="h-full w/full object-cover" />
+    <Carousel className="w-full h-96 object-cover rounded">
+      <img src={img1} alt="" className="h-full w-full object-cover" />
+      <img src={img2} alt="" className="h-full w-full object-cover" />
+      <img src={img3} alt="" className="h-full w-full object-cover" />
+      <img src={img4} alt="" className="h-full w-full object-cover" />
+      <img src={img5} alt="" className="h-full w-full object-cover" />
+      <img src={img6} alt="" className="h-full w-full object-cover" />
+      <img src={img7} alt="" className="h-full w-full object-cover" />
+      <img src={img8} alt="" className="h-full w-full object-cover" />
+      <img src={img9} alt="" className="h-full w-full object-cover" />
+      <img src={img10} alt="" className="h-full w-full object-cover" />
+      <img src={img11} alt="" className="h-full w-full object-cover" />
+      <img src={img12} alt="" className="h-full w/full object-cover" />
+      <img src={img13} alt="" className="h-full w/full object-cover" />
+      <img src={img14} alt="" className="h-full w/full object-cover" />
+      <img src={img15} alt="" className="h-full w/full object-cover" />
     </Carousel>
   );
 };
 
 export const CarouselDefault3 = () => {
   return (
-    <Carousel className="w-full h-56 object-cover rounded">
-      <img src={img31} alt="image 1" className="h-full w-full object-cover" />
-      <img src={img32} alt="image 2" className="h-full w-full object-cover" />
-      <img src={img33} alt="image 3" className="h-full w-full object-cover" />
-      <img src={img34} alt="image 4" className="h-full w-full object-cover" />
-      <img src={img35} alt="image 5" className="h-full w-full object-cover" />
-      <img src={img36} alt="image 6" className="h-full w-full object-cover" />
-      <img src={img37} alt="image 7" className="h-full w-full object-cover" />
-      <img src={img38} alt="image 8" className="h-full w-full object-cover" />
-      <img src={img39} alt="image 9" className="h-full w-full object-cover" />
-      <img src={img40} alt="image 10" className="h-full w-full object-cover" />
+    <Carousel className="w-full h-96 object-cover rounded">
+      <img src={img31} alt="" className="h-full w-full object-cover" />
+      <img src={img32} alt="" className="h-full w-full object-cover" />
+      <img src={img33} alt="" className="h-full w-full object-cover" />
+      <img src={img34} alt="" className="h-full w-full object-cover" />
+      <img src={img35} alt="" className="h-full w-full object-cover" />
+      <img src={img36} alt="" className="h-full w-full object-cover" />
+      <img src={img37} alt="" className="h-full w-full object-cover" />
+      <img src={img38} alt="" className="h-full w-full object-cover" />
+      <img src={img39} alt="" className="h-full w-full object-cover" />
+      <img src={img40} alt="" className="h-full w-full object-cover" />
     </Carousel>
   );
 };
